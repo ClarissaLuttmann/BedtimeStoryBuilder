@@ -21,6 +21,11 @@
 import java.io.FileWriter;  
 import java.util.Scanner; 
 
+/**
+ * Generates new bedtime stories for kids based on supplied input.
+ * @author jacar
+ *
+ */
 public class BedtimeStoryBuilder {
 	// The following method identifies the selected strings' first letter and converts the 'a' in front of the CHARACTER, FRIEND and VILLIAN name in the text to 'an' if either have 'a', 'e', 'i', 'o' or 'u' as the first letter 
 	public static String vocalScan(String character) {
